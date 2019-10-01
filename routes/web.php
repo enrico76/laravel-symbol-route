@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/cube/number', 'myController@getNumber');
+Route::get('/cube/letter', 'myController@getLetter');
